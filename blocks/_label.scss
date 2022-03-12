@@ -1,0 +1,15 @@
+.label {
+  @include flex();
+  margin: 0;
+  padding: 0 0 60px 0;
+  @include responsive(tablet) {
+    padding: 0 0 70px 0;
+  }
+}
+
+.label_place_footer {
+  padding-bottom: 184px;
+  @include responsive(tablet) {
+    padding-bottom: 84px;
+  }
+}

@@ -5,6 +5,6 @@
   padding: 0;
   @include responsive(tablet) {
     @include fontproperty(22px, 1.36, 400);
-    margin: 0 20px 0 0;
+    margin: 0 20px 0 6px;
   }
 }

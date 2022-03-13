@@ -5,6 +5,13 @@
   flex-grow: 1;
   color: $primarycolor;
   padding: 20px 15px 17px 15px;
+  box-sizing: border-box;
+  &_place_footer {
+    @include responsive(tablet) {
+      width: 348px;
+      flex-grow: 0;
+    }
+  }
   &:focus {
     background-color: rgba(142, 142, 152, 0.3);
     outline: none;

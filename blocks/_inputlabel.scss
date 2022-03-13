@@ -1,0 +1,23 @@
+.inputlabel {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: $dullcolor;
+    margin-left: 2px;
+    @include responsive(desktop) {
+        margin-left: 10px;
+      }
+    &_place_footer {
+      padding: 0;
+        @include responsive(tablet) {
+            margin-top: 18px;
+            margin-left: 0;
+            
+          }
+          @include responsive(desktop) {
+            margin-top: 0;
+          }
+    }
+}

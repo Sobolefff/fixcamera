@@ -1,4 +1,4 @@
-@import url(../vendor/fonts/fonts.css);
+@import "../vendor/fonts/fonts.css";
 .header {
   align-self: flex-start;
   margin: 0 20px 0;
@@ -12,8 +12,9 @@
 }
 @media (min-width: 1440px) {
   .header {
-    margin: 0 auto 60px auto;
+    margin: 0 0 60px 0;
     padding-top: 60px;
+    padding: 60px 0 0 0;
   }
 }
 .header__title {
@@ -222,6 +223,14 @@ input[type=text] {
 }
 
 .button {
+  color: #ffffff;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 0.38px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -245,7 +254,6 @@ input[type=text] {
     align-items: baseline;
     width: 221px;
     height: 50px;
-    font-size: 16px;
     padding: 13px 16px;
   }
 }
@@ -262,16 +270,8 @@ input[type=text] {
   background-color: rgba(71, 71, 76, 0.7);
 }
 .button__text {
-  color: #ffffff;
   margin: 0;
   padding: 0;
-  font-family: Roboto, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  text-align: center;
-  letter-spacing: 0.38px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -303,6 +303,30 @@ input[type=text] {
 }
 @media (min-width: 768px) {
   .image {
+    border-radius: 16px;
+  }
+}
+.image_color_yellow {
+  background-color: #FFD233;
+  min-width: 280px;
+  min-height: 67px;
+  border-radius: 4px;
+}
+@media (min-width: 768px) {
+  .image_color_yellow {
+    min-width: 173px;
+    border-radius: 16px;
+  }
+}
+.image_color_green {
+  background-color: #25E197;
+  min-width: 280px;
+  min-height: 124px;
+  border-radius: 4px;
+}
+@media (min-width: 768px) {
+  .image_color_green {
+    min-width: 173px;
     border-radius: 16px;
   }
 }
@@ -422,7 +446,7 @@ input[type=text] {
 }
 
 .inputlabel {
-  font-family: Roboto;
+  font-family: Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -602,6 +626,31 @@ input[type=text] {
   background-color: #232327;
 }
 
+.guarant__heading {
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 0;
+  margin: 70px 0 40px 20px;
+}
+@media (min-width: 768px) {
+  .guarant__heading {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 120px 0 60px 60px;
+  }
+}
+@media (min-width: 1440px) {
+  .guarant__heading {
+    font-size: 32px;
+    line-height: 1.25;
+    font-weight: 400;
+    margin: 120px 0 60px 0;
+  }
+}
+
 .cards-guarant {
   grid-auto-rows: 148px;
   box-sizing: border-box;
@@ -688,6 +737,9 @@ input[type=text] {
   width: 280px;
   height: 50px;
   border-radius: 8px;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.38px;
 }
 @media (min-width: 768px) {
   .support__button {

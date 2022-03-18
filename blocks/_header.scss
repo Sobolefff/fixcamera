@@ -7,8 +7,9 @@
     padding: 60px 60px 0 60px;
   }
   @include responsive(desktop) {
-    margin: 0 auto 60px auto;
+    margin: 0 0 60px 0;
     padding-top: 60px;
+    padding: 60px 0 0 0;
   }
   &__title {
     @include fontproperty(50px, 1.2, 400);

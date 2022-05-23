@@ -1,0 +1,32 @@
+.image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  @include responsive(tablet) {
+    border-radius: 16px;
+  }
+  &_color_yellow {
+    background-color: #FFD233;
+    min-width: 280px;
+    min-height: 67px;
+    border-radius: 4px;
+    @include responsive(tablet) {
+      min-width: 173px;
+      border-radius: 16px;
+    }
+  }
+  &_color_green{
+    background-color: #25E197;
+    min-width: 280px;
+    min-height: 124px;
+    border-radius: 4px;
+    @include responsive(tablet) {
+      min-width: 173px;
+      border-radius: 16px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import "../vendor/fonts/fonts.css";
+
+@import "../variables/background.scss";
+@import "../variables/color.scss";
+@import "../variables/media.scss";
+
+@import "../mixins/flex.scss";
+@import "../mixins/zeroindent.scss";
+@import "../mixins/fontproperty.scss";
+@import "../mixins/responsive.scss";
+
+@import "../blocks/header";
+@import "../blocks/page";
+@import "../blocks/label";
+@import "../blocks/logo";
+@import "../blocks/tag";
+@import "../blocks/input";
+@import "../blocks/inputbox";
+@import "../blocks/button";
+@import "../blocks/image";
+@import "../blocks/text";
+@import "../blocks/collage";
+@import "../blocks/inputlabel";
+@import "../blocks/cards";
+@import "../blocks/card";
+@import "../blocks/guarant";
+@import "../blocks/cards-guarant";
+@import "../blocks/card-guarant";
+@import "../blocks/support";
+@import "../blocks/footer";
+@import "../blocks/copyright";
